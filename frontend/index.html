@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI Rent Agreement Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Rent Agreement Generator</h1>
+
+<input type="text" id="landlord_name" placeholder="Landlord Name">
+
+<input type="text" id="tenant_name" placeholder="Tenant Name">
+
+<input type="text" id="property_address" placeholder="Property Address">
+
+<input type="number" id="monthly_rent" placeholder="Monthly Rent">
+
+<input type="number" id="security_deposit" placeholder="Security Deposit">
+
+<input type="date" id="start_date">
+
+<input type="date" id="end_date">
+
+<button onclick="generateAgreement()">
+
+Generate AI Agreement
+
+</button>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
